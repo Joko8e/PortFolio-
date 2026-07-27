@@ -8,7 +8,7 @@ function Skills() {
       id: 'frontend',
       title: 'Front-End',
       icon: <Layout className="text-info mb-2" size={28} />,
-      skills: ['React.js', 'JavaScript (ES6+)', 'HTML5 / CSS3', 'Bootstrap 5', 'Tailwind CSS']
+      skills: ['React.js', 'JavaScript (ES6+)', 'HTML5 / CSS3', 'Bootstrap 5', 'Responsive Design']
     },
     {
       id: 'backend',
@@ -20,7 +20,7 @@ function Skills() {
       id: 'tools',
       title: 'Outils & Environnement',
       icon: <Wrench className="text-info mb-2" size={28} />,
-      skills: ['Git / GitHub', 'Vite', 'VS Code', 'Postman', 'Vercel / Netlify']
+      skills: ['GitHub', 'VS Code', 'Postman', 'Vercel']
     },
     {
       id: 'softskills',
