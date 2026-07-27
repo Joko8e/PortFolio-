@@ -1,7 +1,7 @@
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
-export default function ProjectCardBootstrap({ project }) {
+function ProjectCardBootstrap({ project }) {
   const { title, description, image, tags, githubUrl, demoUrl } = project;
 
   return (
@@ -52,7 +52,7 @@ export default function ProjectCardBootstrap({ project }) {
                 rel="noopener noreferrer" 
                 className="btn btn-sm btn-outline-light d-inline-flex align-items-center gap-1 ms-auto"
               >
-                <Github size={14} /> GitHub
+                {/* <Github size={14} /> GitHub */}
               </a>
             )}
           </div>
@@ -61,3 +61,4 @@ export default function ProjectCardBootstrap({ project }) {
     </div>
   );
 }
+export default ProjectCardBootstrap;
