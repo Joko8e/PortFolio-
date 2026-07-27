@@ -1,5 +1,4 @@
 import React from 'react'
-import { CircleArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 
 function Hero() {
   return (
@@ -13,7 +12,7 @@ function Hero() {
             {/* Badge Reconversion / Statut */}
             <div className="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-dark border border-secondary text-info mb-4">
               <span className="spinner-grow spinner-grow-sm text-info" role="status" aria-hidden="true"></span>
-              <span className="small font-monospace">Développeur Web Full Stack &bull; Reconversion Reussie</span>
+              <span className="small font-monospace">Développeur Web Full Stack &bull; Reconversion Réussie</span>
             </div>
 
             {/* Titre principal */}
@@ -33,7 +32,7 @@ function Hero() {
                 className="btn btn-info btn-lg px-4 d-inline-flex align-items-center gap-2 font-semibold shadow-sm"
               >
                 Voir mes projets
-                <CircleArrowDown size={20} />
+                <i className="bi bi-arrow-down-circle fs-5"></i>
               </a>
               <a 
                 href="/resume.pdf" 
@@ -41,7 +40,7 @@ function Hero() {
                 rel="noopener noreferrer" 
                 className="btn btn-outline-light btn-lg px-4 d-inline-flex align-items-center gap-2"
               >
-                <Download size={20} />
+                <i className="bi bi-download fs-5"></i>
                 Télécharger mon CV
               </a>
             </div>
@@ -53,26 +52,29 @@ function Hero() {
                 href="https://github.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white"
+                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
+                style={{ width: '38px', height: '38px' }}
                 title="GitHub"
               >
-                <Github size={18} />
+                <i className="bi bi-github fs-5"></i>
               </a>
               <a 
                 href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white"
+                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
+                style={{ width: '38px', height: '38px' }}
                 title="LinkedIn"
               >
-                <Linkedin size={18} />
+                <i className="bi bi-linkedin fs-5"></i>
               </a>
               <a 
                 href="mailto:votre.email@example.com" 
-                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white"
+                className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
+                style={{ width: '38px', height: '38px' }}
                 title="Email"
               >
-                <Mail size={18} />
+                <i className="bi bi-envelope fs-5"></i>
               </a>
             </div>
 
@@ -86,7 +88,9 @@ function Hero() {
                 <span className="rounded-circle bg-danger d-inline-block" style={{ width: '10px', height: '10px' }}></span>
                 <span className="rounded-circle bg-warning d-inline-block" style={{ width: '10px', height: '10px' }}></span>
                 <span className="rounded-circle bg-success d-inline-block" style={{ width: '10px', height: '10px' }}></span>
-                <span className="text-secondary font-monospace small ms-2">developer.js</span>
+                <span className="text-secondary font-monospace small ms-2">
+                  <i className="bi bi-code-slash me-1"></i>developer.js
+                </span>
               </div>
               
               {/* Contenu du code d'illustration */}
