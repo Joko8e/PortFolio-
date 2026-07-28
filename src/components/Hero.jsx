@@ -1,8 +1,9 @@
 import React from 'react'
+import Profile from '../assets/Profile.jpg'
 
 function Hero() {
   return (
-      <section id="hero" className="min-vh-100 d-flex align-items-center bg-black text-white py-5">
+    <section id="hero" className="min-vh-100 d-flex align-items-center bg-black text-white py-5">
       <div className="container py-5">
         <div className="row align-items-center g-5">
           
@@ -13,12 +14,11 @@ function Hero() {
             <div className="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-dark border border-secondary text-info mb-4">
               <span className="spinner-grow spinner-grow-sm text-info" role="status" aria-hidden="true"></span>
               <span className="small font-monospace">Développeur Web Full Stack &bull; Reconversion Réussie</span>
-              {/* le &bull sert de séparateur visuel entre les éléments */}
             </div>
 
             {/* Titre principal */}
             <h1 className="display-4 fw-bold text-white mb-3">
-              Bonjour, je suis <span className="text-info">Jordy</span>
+              <span className="text-info">Jordy Mavuidi</span>
             </h1>
 
             {/* Sous-titre / Slogan */}
@@ -81,42 +81,59 @@ function Hero() {
 
           </div>
 
-          {/* Colonne Droite : Visuel / Code Snippet d'illustration */}
-          <div className="col-12 col-lg-5">
-            <div className="card bg-dark border-secondary shadow-lg overflow-hidden">
-              {/* Barre supérieure style éditeur de code */}
-              <div className="card-header bg-black bg-opacity-50 border-bottom border-secondary d-flex align-items-center gap-2 py-2 px-3">
-                <span className="rounded-circle bg-danger d-inline-block" style={{ width: '10px', height: '10px' }}></span>
-                <span className="rounded-circle bg-warning d-inline-block" style={{ width: '10px', height: '10px' }}></span>
-                <span className="rounded-circle bg-success d-inline-block" style={{ width: '10px', height: '10px' }}></span>
-                <span className="text-secondary font-monospace small ms-2">
-                  <i className="bi bi-code-slash me-1"></i>developer.js
-                </span>
-              </div>
+          {/* Colonne Droite : Photo + Code Snippet */}
+          <div className="col-12 col-lg-5 pt-4 pt-lg-0">
+            <div className="position-relative">
               
-              {/* Contenu du code d'illustration */}
-              <div className="card-body p-4 font-monospace small lh-lg">
-                <p className="mb-0 text-secondary">// Développeur passionné & orienté solution</p>
-                <p className="mb-0">
-                  <span className="text-danger">const</span> <span className="text-warning">developer</span> = &#123;
-                </p>
-                <p className="mb-0 ms-3">
-                  <span className="text-info">name</span>: <span className="text-success">'Jordy'</span>,
-                </p>
-                <p className="mb-0 ms-3">
-                  <span className="text-info">role</span>: <span className="text-success">'Développeur Web React'</span>,
-                </p>
-                <p className="mb-0 ms-3">
-                  <span className="text-info">stack</span>: [<span className="text-success">'React'</span>, <span className="text-success">'Node.js'</span>, <span className="text-success">'Bootstrap'</span>],
-                </p>
-                <p className="mb-0 ms-3">
-                  <span className="text-info">softSkills</span>: [<span className="text-success">'Rigueur'</span>, <span className="text-success">'Travail d\'équipe'</span>, <span className="text-success">'Adaptabilité'</span>],
-                </p>
-                <p className="mb-0 ms-3">
-                  <span className="text-info">status</span>: <span className="text-success">'À la recherche d\'opportunités'</span>
-                </p>
-                <p className="mb-0">&#125;;</p>
+              {/* Photo de profil (Avatar flottant) */}
+              <div 
+                className="position-absolute top-0 start-50 translate-middle rounded-circle border border-3 border-info overflow-hidden shadow-lg"
+                style={{ width: '110px', height: '110px', zIndex: 10 }}
+              >
+                {/* Photo de profil */}
+                <img 
+                  src={Profile} 
+                  alt="Jordy Mavuidi" 
+                  className="w-100 h-100 object-fit-cover"
+                />
               </div>
+
+              {/* Carte style éditeur de code avec décalage en haut pour l'avatar */}
+              <div className="card bg-dark border-secondary shadow-lg overflow-hidden pt-4 mt-4">
+                
+                {/* Barre supérieure style éditeur de code */}
+                <div className="card-header bg-black bg-opacity-50 border-bottom border-secondary d-flex align-items-center gap-2 py-2 px-3">
+                  <span className="rounded-circle bg-danger d-inline-block" style={{ width: '10px', height: '10px' }}></span>
+                  <span className="rounded-circle bg-warning d-inline-block" style={{ width: '10px', height: '10px' }}></span>
+                  <span className="rounded-circle bg-success d-inline-block" style={{ width: '10px', height: '10px' }}></span>
+                </div>
+                
+                {/* Contenu du code d'illustration */}
+                <div className="card-body p-4 font-monospace small lh-lg">
+                  <p className="mb-0 text-secondary">// Développeur passionné & orienté solution</p>
+                  <p className="mb-0">
+                    <span className="text-danger">const</span> <span className="text-warning">developer</span> = &#123;
+                  </p>
+                  <p className="mb-0 ms-3">
+                    <span className="text-info">name</span>: <span className="text-success">'Jordy'</span>,
+                  </p>
+                  <p className="mb-0 ms-3">
+                    <span className="text-info">role</span>: <span className="text-success">'Développeur Web React'</span>,
+                  </p>
+                  <p className="mb-0 ms-3">
+                    <span className="text-info">stack</span>: [<span className="text-success">'React'</span>, <span className="text-success">'Node.js'</span>, <span className="text-success">'Bootstrap'</span>],
+                  </p>
+                  <p className="mb-0 ms-3">
+                    <span className="text-info">softSkills</span>: [<span className="text-success">'Rigueur'</span>, <span className="text-success">'Travail d\'équipe'</span>, <span className="text-success">'Adaptabilité'</span>],
+                  </p>
+                  <p className="mb-0 ms-3">
+                    <span className="text-info">status</span>: <span className="text-success">'À la recherche d\'opportunités'</span>
+                  </p>
+                  <p className="mb-0">&#125;;</p>
+                </div>
+
+              </div>
+
             </div>
           </div>
 
