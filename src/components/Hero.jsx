@@ -13,6 +13,7 @@ function Hero() {
             <div className="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-dark border border-secondary text-info mb-4">
               <span className="spinner-grow spinner-grow-sm text-info" role="status" aria-hidden="true"></span>
               <span className="small font-monospace">Développeur Web Full Stack &bull; Reconversion Réussie</span>
+              {/* le &bull sert de séparateur visuel entre les éléments */}
             </div>
 
             {/* Titre principal */}
@@ -49,7 +50,7 @@ function Hero() {
             <div className="d-flex align-items-center gap-3 justify-content-center justify-content-lg-start pt-3 border-top border-secondary">
               <span className="text-secondary small me-2">Me rejoindre :</span>
               <a 
-                href="https://github.com" 
+                href="https://github.com/Joko8e" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
@@ -59,7 +60,7 @@ function Hero() {
                 <i className="bi bi-github fs-5"></i>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/jordy-mavuidi/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
@@ -69,7 +70,7 @@ function Hero() {
                 <i className="bi bi-linkedin fs-5"></i>
               </a>
               <a 
-                href="mailto:votre.email@example.com" 
+                href="mailto:j.mavuidi@gmail.com"
                 className="btn btn-sm btn-outline-secondary rounded-circle p-2 text-white d-inline-flex align-items-center justify-content-center"
                 style={{ width: '38px', height: '38px' }}
                 title="Email"

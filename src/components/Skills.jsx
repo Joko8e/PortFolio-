@@ -76,7 +76,7 @@ function Skills() {
         {/* Petit bandeau bonus / Apprentissage continu */}
         <div className="mt-5 p-4 rounded-3 bg-dark border border-secondary text-center">
           <p className="mb-0 text-secondary small">
-            💡 <strong className="text-white">En apprentissage continu :</strong> Je développe actuellement mes compétences sur <span className="text-info">Next.js</span> et la découverte de <span className="text-info">C#</span>.
+            💡 <strong className="text-white">En apprentissage continu :</strong> Je développe actuellement mes compétences sur <span className="text-info">Next.js</span> et la découverte de <span className="text-info">Angular</span>.
           </p>
         </div>
 
