@@ -12,7 +12,7 @@ function ProjectCardBootstrap({ project }) {
           src={image} 
           alt={`Aperçu du projet ${title}`} 
           className="card-img-top w-100 h-100" 
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', objectPosition: 'top center' }}
         />
       </div>
 
