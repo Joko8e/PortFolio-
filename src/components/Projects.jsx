@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCardBootstrap from './ProjectCard';
-import { projectsData } from '../data/projectData';
+import { projectsData } from '../Data/projectData';
 
 function Projects() {
   return (
