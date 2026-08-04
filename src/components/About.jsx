@@ -21,12 +21,11 @@ function About() {
           <div className="col-12 col-lg-6">
             <div className="p-4 p-md-5 rounded-3 bg-dark border border-secondary h-100 d-flex flex-column justify-content-center shadow-sm">
               <div className="d-flex align-items-center gap-2 mb-3">
-                <span className="text-info font-monospace">&lt;story&gt;</span>
                 <h3 className="h4 text-white fw-bold mb-0">Mon Parcours</h3>
               </div>
 
               <p className="text-secondary lh-lg mb-3">
-                Issu d'un parcours riche dans le commerce et le travail d'équipe, j'ai développé au fil des années une forte capacité d'adaptation, une grande rigueur et un sens aigu de la satisfaction client.
+                Issu d'un parcours dans le commerce, la vente et le travail d'équipe, j'ai développé au fil des années une forte capacité d'adaptation, une grande rigueur et un sens aigu de la satisfaction client.
               </p>
               
               <p className="text-secondary lh-lg mb-3">
@@ -37,9 +36,6 @@ function About() {
                 Ma double culture (métier & technique) me permet de comprendre rapidement les besoins d'un projet, de collaborer efficacement et d'apporter une vraie valeur ajoutée au sein d'une équipe tech.
               </p>
 
-              <div>
-                <span className="text-info font-monospace">&lt;/story&gt;</span>
-              </div>
             </div>
           </div>
 
