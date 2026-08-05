@@ -29,22 +29,22 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav align-items-center gap-md-2 my-2 my-md-0">
             <li className="nav-item">
-              <a className="nav-link text-secondary text-white-hover px-3 font-monospace small" href="#hero">
+              <a className="nav-link text-white text-white-hover px-3 font-monospace small" href="#hero">
                 Accueil
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary text-white-hover px-3 font-monospace small" href="#about">
+              <a className="nav-link text-white text-white-hover px-3 font-monospace small" href="#about">
                 À propos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary text-white-hover px-3 font-monospace small" href="#projects">
+              <a className="nav-link text-white text-white-hover px-3 font-monospace small" href="#projects">
                 Projets
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary text-white-hover px-3 font-monospace small" href="#skills">
+              <a className="nav-link text-white text-white-hover px-3 font-monospace small" href="#skills">
                 Compétences
               </a>
             </li>

@@ -96,7 +96,7 @@ function Hero() {
                 <i className="bi bi-arrow-down-circle fs-5"></i>
               </a>
               <a 
-                href="/resume.pdf" 
+                href="/Jordy-Mavuidi-WebFullstack-CV.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-outline-light px-4 py-2 d-inline-flex align-items-center gap-2"
