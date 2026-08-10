@@ -1,5 +1,13 @@
 Projet contenant mon portfolio post reconversion développeur web 
 Projet fait sous react + bootstrap
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
